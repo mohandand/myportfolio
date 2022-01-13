@@ -1,0 +1,26 @@
+body{
+    background-image: url('../images/header-background.JPG');
+    background-color: #cccccc;
+} 
+.headercontainer{
+    max-width:100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.myname{
+   color:white;
+   font-weight: bold;
+   margin-top: 16px;
+}
+.menu{
+    list-style-type: none;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}  
+li{
+    margin-right:20px;
+}
