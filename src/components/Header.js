@@ -24,9 +24,10 @@ const Header = () => {
       }, [])
 
     return(
+    <div className="head">
         <div className="headercontainer">
             <div className="myname">Mohan Dandigam</div>
-            {(toggleMenu || screenWidth > 500) && <ul className="menu">
+            {(screenWidth > 500) && <ul className="menu">
                 <li className="menuitem">Home</li>
                 <li className="menuitem">Resume</li>
                 <li className="menuitem">Works</li>
@@ -35,6 +36,17 @@ const Header = () => {
             </ul>}
             <img className="mobile-menu" onClick={toggleNav}src="images/menu.JPG" alt="Open Navigation"/>
         </div>
+        <div>
+            {toggleMenu && <ul className="mob-menu">
+                <li className="menuitem">Home</li>
+                <li className="menuitem">Resume</li>
+                <li className="menuitem">Works</li>
+                <li className="menuitem">About</li>
+                <li className="menuitem">Contact</li>
+            </ul>
+            }
+        </div>
+    </div>
     )
 }
 export default Header

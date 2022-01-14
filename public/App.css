@@ -50,21 +50,30 @@ li{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        position: relative;
     }
     .myname{
        color:white;
        font-weight: bold;
        margin-top: 16px;
     }
-    .menu{
+    .mob-menu{
         list-style-type: none;
         color:white;
         font-weight: bold;
         display: flex;
         flex-direction: column;
+        min-width: 50px;
+        height: 150px;
+        background-color: cadetblue;
+        position: absolute;
+        left:260px;
+        top: 24px;
+        border-radius: 6px
     }  
     li{
         margin-right:20px;
+        padding:5px 0px;
     }
     .menuitem:hover{
         color:#c5cae9;
@@ -77,5 +86,56 @@ li{
         width:20px;
         display: block;
     }
+    .head{
+        position:relative
+    }
+}
+@media (max-width: 450px) {
+    .mob-menu{
+        list-style-type: none;
+        color:white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        min-width: 50px;
+        height: 150px;
+        background-color: cadetblue;
+        position: absolute;
+        left:230px;
+        top: 24px;
+        border-radius: 6px
+    }  
+}
+@media (max-width: 400px) {
+    .mob-menu{
+        list-style-type: none;
+        color:white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        min-width: 50px;
+        height: 150px;
+        background-color: cadetblue;
+        position: absolute;
+        left:211px;
+        top: 24px;
+        border-radius: 6px
+    }  
+}
 
+@media (max-width: 350px) {
+    .mob-menu{
+        list-style-type: none;
+        color:white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        min-width: 50px;
+        height: 150px;
+        background-color: cadetblue;
+        position: absolute;
+        left:167px;
+        top: 24px;
+        border-radius: 6px
+    }  
 }
