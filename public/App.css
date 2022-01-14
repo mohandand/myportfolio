@@ -49,7 +49,7 @@ li{
         margin:0 auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         position: relative;
     }
     .myname{
@@ -67,7 +67,7 @@ li{
         height: 150px;
         background-color: cadetblue;
         position: absolute;
-        left:260px;
+        left:320px;
         top: 24px;
         border-radius: 6px
     }  
@@ -101,7 +101,7 @@ li{
         height: 150px;
         background-color: cadetblue;
         position: absolute;
-        left:230px;
+        left:290px;
         top: 24px;
         border-radius: 6px
     }  
@@ -117,7 +117,7 @@ li{
         height: 150px;
         background-color: cadetblue;
         position: absolute;
-        left:211px;
+        left:271px;
         top: 24px;
         border-radius: 6px
     }  
@@ -133,7 +133,7 @@ li{
         height: 150px;
         background-color: cadetblue;
         position: absolute;
-        left:184px;
+        left:244px;
         top: 24px;
         border-radius: 6px
     }  
@@ -150,7 +150,7 @@ li{
         height: 150px;
         background-color: cadetblue;
         position: absolute;
-        left:167px;
+        left:227px;
         top: 24px;
         border-radius: 6px
     }  
