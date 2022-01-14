@@ -122,6 +122,22 @@ li{
         border-radius: 6px
     }  
 }
+@media (max-width: 376px) {
+    .mob-menu{
+        list-style-type: none;
+        color:white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        min-width: 50px;
+        height: 150px;
+        background-color: cadetblue;
+        position: absolute;
+        left:191px;
+        top: 24px;
+        border-radius: 6px
+    }  
+}
 
 @media (max-width: 350px) {
     .mob-menu{
