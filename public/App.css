@@ -24,3 +24,58 @@ body{
 li{
     margin-right:20px;
 }
+.menuitem:hover{
+    color:#c5cae9;
+    transform: rotate(6deg);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.mobile-menu{
+    margin-top:16px;
+    height:20px;
+    width:20px
+}
+.mobile-menu{
+    display: none;
+    height:20px;
+    width:20px;
+}
+
+
+@media (max-width: 500px) {
+
+    .headercontainer{
+        max-width:100%;
+        margin:0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .myname{
+       color:white;
+       font-weight: bold;
+       margin-top: 16px;
+    }
+    .menu{
+        list-style-type: none;
+        color:white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }  
+    li{
+        margin-right:20px;
+    }
+    .menuitem:hover{
+        color:#c5cae9;
+        transform: rotate(6deg);
+        transition: all 0.3s ease-out;
+        cursor: pointer;
+    }
+    .mobile-menu{
+        height:20px;
+        width:20px;
+        display: block;
+    }
+
+}
